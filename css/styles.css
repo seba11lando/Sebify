@@ -558,43 +558,46 @@ a {
 /* Callouts */
 
 .callout {
-   padding: 4rem;
-   border-radius: 5px;
+  padding: 4rem;
+  border-radius: 5px;
+  /*margin-bottom: 6rem;*/
 }
 
 .callout--primary {
-    background: var(--color-primary);
-    color: #fff;
+  background: var(--color-primary);
+  color: #fff;
 }
 
 .callout__heading {
-    color: #fff;
-    font-size: 3rem;
-    margin-top: 0;
+  color: #fff;
+  margin-top: 0;
+  font-size: 3rem;
 }
 
 .callout .btn {
-    justify-self: center;
-    align-self: center;
+  justify-self: center;
+  align-self: center;
 }
 
 .callout__content {
-    text-align: center;
+  text-align: center;
+}
+
+.callout-signup {
+    transform: translateY(5rem);
 }
 
 @media screen and (min-width: 768px) {
-    .callout .grid--1x2 {
-        grid-template-columns: 1fr auto;
-    }
-
-    .callout__content {
-        text-align: left;
-    }
-
-    .callout .btn {
-        justify-self: start;
-        margin: 0 2rem;
-    }
+  .callout .grid--1x2 {
+    grid-template-columns: 1fr auto;
+  }
+  .callout__content {
+    text-align: left;
+  }
+  .callout .btn {
+    justify-self: start;
+    margin: 0 2rem;
+  }
 }
 
 /* Collapsibles */
@@ -739,7 +742,7 @@ a {
 /* Hero */
 .hero__tagline {
     font-size: 2rem;
-    color: b9c3cf;
+    color: #b9c3cf;
     letter-spacing: 1px;
     margin: 2rem 0 5rem;
 }
