@@ -1,0 +1,24 @@
+{
+  "name": "sebify",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seba11lando/Sebify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/seba11lando/Sebify/issues"
+  },
+  "homepage": "https://github.com/seba11lando/Sebify#readme",
+  "dependencies": {
+    "parcel": "^2.16.4"
+  }
+}
